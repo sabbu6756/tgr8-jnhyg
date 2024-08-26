@@ -5,7 +5,7 @@ function checkReferrer() {
     currPath = currPath.match(/\d+/);
     let currInt = document.referrer != "" ? parseInt(currPath[0]) : "";
     let expectedReferrerPath = "/a" + (currInt-1) + ".html";
-    nextPath = "a" + (currInt+1) + ".html";
+    nextPath = "a2" + (currInt+1) + ".html";
     console.log(currInt);
     console.log(nextPath);
     // Check if the referrer is not empty and pathname is the expected URL pathname
